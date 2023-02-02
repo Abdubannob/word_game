@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.game-container{
+    margin-left: 30px;
+    width: 400px;
+    height: 700px;
+    border: 1px solid red;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: slategray;
+}
+.games{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 6px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: chartreuse;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.answer-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.ans-box{
+    width: 40px;
+    height: 40px;
+    background-color: lightslategray;
+    box-shadow: 2px 2px 0 2px;
+    opacity: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+.letter-box{
+    display: grid;
+    grid-template-columns: repeat(6, 40px);
+    grid-template-rows: repeat(2, 40px);
+    gap: 6px;
+}
+.let-box{
+    background-color: cadetblue;
+}
+.help{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.help-box{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+.let-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+.help-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.right{
+    width: 60px;
+    height: 30px;
+    color: black;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width: 60px;
+    height: 30px;
+    color: black;
+    background-color: #fff;
+}
+.bt{
+    display: none;
+}
